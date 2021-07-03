@@ -25,7 +25,7 @@
 <body>
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+ <!-- <p>Hello world! This is HTML5 Boilerplate.</p> -->
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
@@ -33,12 +33,64 @@
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+    ga('create', 'Ecem', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
 
-<embed src="https://www.google.co.uk/" style="width:500px; height: 300px;">
-<iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" style="width: 500px; height: 300px;" > </iframe>
+ <div class="container ">
+        <header class="header">
+            <h1 id="title">
+               Data Visualisation for Linguistics
+            </h1>
+            <p id="description">
+                Welcome to our study! This is an interdisciplinary study between linguists and computer scientist.
+              Before continuing please read the consent form below and continue if you agree with it.
+            </p>
+        </header>
+        <form action="" id="survey-form">
+          <!-- Consent form -->
+          <div>
+            <p>
+              A consent form is a signed document that outlines the informed consent of an individual for a medical study,
+              clinical trial, or activity. Whether you’re looking for a way to gather model releases, activity waivers, parental consent,
+              or medical consent forms, you can start by selecting one of our 400+ Consent Form Templates. Once you’ve chosen a consent form
+              and customized its terms and conditions, all that’s left to do is embed the form on your website, send the link via email,
+              or let participants fill out the form in person on your tablet or computer — you’ll then be able to securely collect consent forms online!
+              You can even link your custom form to one of our Consent Agreement PDF Templates, to automatically turn form submissions into professional PDF documents.
+              Not sure where to start? No worries! Just choose a sample consent form from the list below and easily customize it using JotForm’s
+              drag-and-drop Form Builder — no coding or design experience necessary! Outline the responsibilities of all parties involved,
+              add a detailed release of liability, and include any other information necessary to provide indemnity and protect both your company
+              and the individual giving their informed consent. Why not spice up your form by adding your logo and changing the background color too?
+              Your consent form won’t just function well — it’ll look good too.
+              Make your consent form template even more efficient by adding JotForm’s powerful integrations.
+              Connect with Google Sheets or Airtable to instantly generate a spreadsheet of all form submissions, or link your form to HubSpot, Zoho,
+              or SalesForce to automatically add participants to your CRM database. Be sure to collect e-signatures to make your consent forms legally binding!
+              By gathering consent forms online with JotForm, you’ll eliminate messy paperwork, streamline your workflow, and save time that could be better spent elsewhere.
+            </p>
+          </div>
+
+
+           <!-- Checkbox section -->
+            <div class="form-group">
+                <label for="">
+                    <input type="checkbox" name="prefer" class="checkbox" value="Agree" required> I agree to take part in the study, which will include use
+of my personal data
+                </label>
+
+            </div>
+            <!-- End of checkbox section -->
+
+
+
+            <div class="form-group">
+                <button type="submit" id="submit" class="btn"><a href="page2.html" >Next </a></button>
+
+            </div>
+
+        </form>
+
+    </div>
+
 </body>
 
 </html>

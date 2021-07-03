@@ -1,0 +1,141 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <!-- Add your site or application content here -->
+ <!-- <p>Hello world! This is HTML5 Boilerplate.</p> -->
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'Ecem', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+ <div class="container ">
+        <header class="header">
+            <h1 id="title">
+               Data Visualisation for Linguistics
+            </h1>
+
+        </header>
+        <form action="" id="survey-form">
+   <p id="description">
+                Welcome to our study! This is an interdisciplinary study between linguists and computer scientist.
+              Before continuing please read the consent form below and continue if you agree with it.
+            </p>
+            <!-- radio button section -->
+            <div class="form-group" aria-required="true">
+                <p id="quest">Gender</p>
+                <label for="">
+                    <input type="radio" name="source" value="male"
+                    class="inputRadio"
+                    checked> Male
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="female"
+                    class="inputRadio"
+                    >Female
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="other"
+                    class="inputRadio"
+                    > Other
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="prefer not to say"
+                    class="inputRadio"
+                    > Prefer not to say
+                </label>
+                 </div>
+
+              <div class="form-group" aria-required="true">
+              <p id="quest">Age</p>
+                <label for="">
+                    <input type="radio" name="source2" value="20-30"
+                    class="inputRadio"
+                    checked> 20-30
+                </label>
+                <label for="">
+                    <input type="radio" name="source2" value="31-40"
+                    class="inputRadio"
+                    > 31-40
+                </label>
+                <label for="">
+                    <input type="radio" name="source2" value="41-50"
+                    class="inputRadio"
+                    > 41-50
+                </label>
+                <label for="">
+                    <input type="radio" name="source2" value="50+"
+                    class="inputRadio"
+                    > 50+
+                </label>
+            </div>
+
+            <div class="form-group" aria-required="true">
+              <p id="quest">Do you have any experience in message annotation?</p>
+                <label for="">
+                    <input type="radio" name="source3" value="yes"
+                    class="inputRadio"
+                    checked> Yes
+                </label>
+                <label for="">
+                    <input type="radio" name="source3" value="no"
+                    class="inputRadio"
+                    > No
+                </label>
+            </div>
+
+           <div class="form-group" aria-required="true">
+              <p id="quest">Do you have any experience in data visualisation?</p>
+                <label for="">
+                    <input type="radio" name="source4" value="yes"
+                    class="inputRadio"
+                    checked> Yes
+                </label>
+                <label for="">
+                    <input type="radio" name="source4" value="no"
+                    class="inputRadio"
+                    > No
+                </label>
+            </div>
+            <!-- end of radio button -->
+
+            <div class="form-group">
+                <button type="submit" id="submit" class="btn"><a href="page3.html" >Next </a></button>
+
+            </div>
+        </form>
+
+
+    </div>
+
+</body>
+
+</html>
